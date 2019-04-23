@@ -112,6 +112,9 @@ Im [CoderDojo Linz Scratch Studio](https://scratch.mit.edu/studios/4562124/) fin
 1. [Türme von Hanoi](/trainingsanleitungen/csharp/towers-of-hanoi.html)
 1. [Geisterspiel in C#](/trainingsanleitungen/csharp/geisterspiel.html)
 
+## Java
+1. [Geisterspiel in Java](/trainingsanleitungen/java/java-geisterspiel.html)
+
 ## Unity (Spieleentwicklungsplattform)
 
 1. [Erste Schritte mit Unity](/trainingsanleitungen/unity/erste-schritte-mit-unity.html)
