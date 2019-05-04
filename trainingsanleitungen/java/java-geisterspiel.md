@@ -8,6 +8,8 @@ description: Einfache Console-Anwendung in Java
 In diesem Beispiel geht es darum in der Programmiersprache Java ein kleines Spiel zu programmieren.
 Das gleiche Spiel gibt es auch in den Programmiersprachen [Python](../python/python-geisterspiel.html) und [C#](../csharp/geisterspiel.html).
 
+![Konsole](java-geisterspiel/geisterspiel_konsole.png)
+
 Du kannst das Spiel entweder lokal in einer IDE (z.B. [IntelliJ](https://www.jetbrains.com/idea/download)) oder ganz einfach direkt im Browser auf [CheerpJ](https://javafiddle.leaningtech.com/) ausprobieren.
 
 ## Die Aufgabe
