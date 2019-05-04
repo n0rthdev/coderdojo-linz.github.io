@@ -30,6 +30,30 @@ public class Geisterspiel {
 ## Ein und Ausgabe in Java
 Ausgaben in Java können relativ einfach über `System.out.println("Hallo Welt");` gemacht werden. Beim einlesen von Daten ist die Sache etwas komplizierter. Um Zeilenweise lesen zu können bedient man sich z.B. des *Scanners* `java.util.Scanner`. Ist dieser mit `new Scanner(System.in)` initialisiert, kann man damit Zeilen (`scanner.read()`) oder auch Zahlen (`scanner.readInt()`) lesen.
 
+Für unser Geisterspiel müssen wir auch überprüfen, ob die Eingabe auch richtig ist (ein Zahl zwischen 1 und 3).
+
+```java
+
+	private int versucheTuere(Scanner in) {
+		int versuch = 0;
+		do { // frage so lange bis eine gültige Eingabe erfolgt ist.
+			try {
+				versuch = in.nextInt();
+			} catch(Exception ex) {
+				in.next(); // wenn Quatsch eingegeben wurde, muss er leider auch gelesen werden
+			}
+			if (versuch < 1 || versuch > 3) {
+				System.out.println("Falsche Eingabe - bitte wähle eine Zahl von 1 - 3");
+				continue; // fange wieder oben an.
+			}
+
+		} while(versuch < 1 || versuch > 3);
+
+		return versuch;
+	}
+
+```
+
 ## Zufallszahlen
 Die Java Bibliothek bringt für Zufallszahlen die Klasse `java.util.Random` mit. Damit der Zufallszahlengenerator jedes mal einen neuen Startwert erhält ist es üblich ihn mit der aktuellen Systemzeit zu initialisieren.
 
