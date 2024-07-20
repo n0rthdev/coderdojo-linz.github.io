@@ -77,13 +77,13 @@ Wenn der Haifisch den Fisch berührt, soll der Fisch ausgeblendet und wieder ins
 {{< /imgblock >}}
 
 2. {{< imgblock "img/11-touch-shark.png" "Hai wird berührt" >}}
-Wenn der Haifisch den Fisch berüht, soll er zwei mal schnappen und das Spiel "Game Over" sein.
+Wenn der Haifisch den Fisch berührt, soll er zwei mal schnappen und das Spiel "Game Over" sein.
 
   * Wähle dazu den Haifisch aus, damit er blau umrandet ist.
   * Im Tab *Code* kannst du den Haifisch "Game Over" sagen lassen.
   * Unter *Ereignisse* wähle *Wenn ich ... empfange*, der Hai reagiert somit auf die vom Fisch ausgelöste Nachricht.
   * Anschließend wähle *wiederhole 2 mal* bei *Steuerung* aus.
-  * Um den Haifisch schnappen zu lassen, gibt es unter *Aussehen* verschiedene Varianten des Hais. Füge folgende Blöcke in den Wiederhol-Block: *wechsle zu Kostüm b*, *warte 0,3 Sek.*, *wechsel zu Kostüm a*, *warte 0,3 Sek.*
+  * Um den Haifisch schnappen zu lassen, gibt es unter *Aussehen* verschiedene Varianten des Hais. Füge folgende Blöcke in den Wiederhol-Block: *wechsle zu Kostüm b*, *warte 0.3 Sek.*, *wechsel zu Kostüm a*, *warte 0.3 Sek.*
   * Und um den Haifisch "Game over" sagen zu lassen, füge einen neuen *Wenn ich ... empfange* Block hinzu und *sage "Game Over!" für 4.5 Sekunden*.
 {{< /imgblock >}}
 
